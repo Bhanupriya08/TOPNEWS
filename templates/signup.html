@@ -1,0 +1,32 @@
+{% extends "index.html" %}
+
+{% block main %}
+
+
+<div class="col-md-6 signup">
+        <form method="POST" action="/signup_view/" style="color: #20b2aa;font-size: 20px;">
+            
+                {{ error }}
+                {% csrf_token %}
+                <table>
+                        <tr><td style="font-size: 25px"><b>First Name :</b></td><td><input type="text" placeholder="Your name.." name="Firstname" ></td></tr>
+                        <tr><td>Last Name :</td><td><input type="text" placeholder="LastName" name="Lastname" required></td></tr>
+                        <tr><td>Email : </td><td> <input type="email" placeholder="Email" name="Email" required></td></tr>
+                       <!-- <tr><td>User Name : </td><td><input type="text" value="UserName" name="Username"></td></tr>
+                        <tr><td> Password :</td><td><input type="password" value="Password" name="Password"></td></tr>
+                        <tr><td>Confirm Pasword:</td><td><input type="password" value="password" name="CPassword"></td></tr>-->
+                        <tr><td></td><td><input type="submit" value="Done"  required> </td> </tr>
+                </table>
+                 
+               
+                   
+            
+                
+
+            
+        </form>
+
+                    
+</div>
+			
+{% endblock %}

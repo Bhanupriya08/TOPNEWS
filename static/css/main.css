@@ -1,0 +1,69 @@
+body { 
+	background-color:green;
+	min-height: 1000px;
+}
+
+
+.header{
+    height: 20%;
+    background-color: rgb(53, 24, 218);
+
+}
+
+.signup {
+	color: firebrick;
+	
+	font-size: 20px;
+	margin: 7%;
+	margin-left:40%; 
+
+
+	
+}
+.main-block{
+	min-height: 1000px;
+	padding: 2%;
+	text-align: center;
+}
+.ft{
+	background-color: black;
+	position: fixed;
+    display: inline-block;
+	bottom: 0;
+	position:fixed;
+	text-align: center;
+
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+  }
+  label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+  }
+
+
+
+.ft li{
+
+	display: inline-block;
+}
+.ft a:hover{
+	text-decoration: none;
+	color:rgb(196, 46, 8);
+}
+a{
+	color: #66FCF1;
+}
+
+
+
+
+
+
+
+
